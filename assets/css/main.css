@@ -2254,7 +2254,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/background2.jpg");
+		background: url("images/overlay.png"), url("../../images/background4.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,12 +2263,19 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/background2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+/* Three (Ethan Added)*/
 
+	#three {
+		background: url("images/overlay.png"), url("../../images/background5.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 /* Contact */
 
 	#contact {
