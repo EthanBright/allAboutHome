@@ -215,5 +215,27 @@
 			.on('load', function() {
 				$window.trigger('resize');
 			});
+		//Ethan: added hamburger
+		var menuItems = document.querySelectorAll('.menu__box li');
 
+		for (var i = 0; i < menuItems.length; ++i) {
+		  menuItems[i].addEventListener('click', function(e) {
+		    var closeEvent = new CustomEvent('closeMenu', {
+		      bubbles: true,
+		    });
+		    e.currentTarget.dispatchEvent(closeEvent);
+		  });
+		}
+
+		var menu = document.querySelector('.menu__box')
+		var toggler = document.querySelector('.toggler')
+		if (menu && toggler) {
+		  menu.addEventListener('closeMenu', function(e) {
+		    menu.classList.remove('open');
+		    toggler.checked = false;
+		  });
+		  toggler.addEventListener('click', function(e) {
+		    menu.classList.toggle('open');
+		  });
+		}
 })(jQuery);
