@@ -2012,7 +2012,12 @@ input, select, textarea {
 			.main > .content > :last-child {
 				margin-bottom: 0;
 			}
-
+			
+			#intro > .content > header > img {
+					position: relative;
+					max-width: calc(100% - 4em);
+			}
+		
 		.main.fullscreen {
 			min-height: 100%;
 		}
