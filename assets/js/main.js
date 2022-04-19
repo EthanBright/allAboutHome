@@ -215,7 +215,7 @@
 			.on('load', function() {
 				$window.trigger('resize');
 			});
-		//Ethan: added hamburger
+		//Hamburger bar
 		let menuItems = document.querySelectorAll('.menu__box li');
 
 		for (let i = 0; i < menuItems.length; ++i) {

@@ -1917,7 +1917,7 @@ input, select, textarea {
 			}
 
 		}
-	/*Ethan: hamburger bar*/
+	/* Hamburger bar*/
 		#menu__toggle {
 			opacity: 0;
 			}
@@ -1989,7 +1989,7 @@ input, select, textarea {
 		  .menu__item:hover {
 			background-color: #CFD8DC;
 		  }
-		  /*Ethan: hamburger bar*/
+
 	  
 /* Main */
 
@@ -2347,7 +2347,7 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-/* Three (Ethan Added)*/
+/* Three */
 
 	#three {
 		background: url("images/overlay.png"), url("../../images/background5.jpg");
